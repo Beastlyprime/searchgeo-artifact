@@ -1,0 +1,213 @@
+{
+  "description": "Attack-only summary for the main 13-backend experiment. Clean-baseline cases are excluded from attack_asr_percent, matching the paper main table.",
+  "rows": [
+    {
+      "backend": "claude-sonnet",
+      "clean_cases": 44,
+      "clean_asr_percent": 0,
+      "attack_cases": 264,
+      "attack_asr_percent": 0,
+      "attack_failures": 0,
+      "by_attack_condition_asr_percent": {
+        "1A": 0,
+        "1A_fact": 0,
+        "1B": 0,
+        "2A_institutional": 0,
+        "2B": 0,
+        "3": 0
+      }
+    },
+    {
+      "backend": "gpt-5.4-mini",
+      "clean_cases": 44,
+      "clean_asr_percent": 0,
+      "attack_cases": 264,
+      "attack_asr_percent": 0.758,
+      "attack_failures": 2,
+      "by_attack_condition_asr_percent": {
+        "1A": 0,
+        "1A_fact": 0,
+        "1B": 0,
+        "2A_institutional": 0,
+        "2B": 2.273,
+        "3": 2.273
+      }
+    },
+    {
+      "backend": "gpt-5.4-nano",
+      "clean_cases": 44,
+      "clean_asr_percent": 0,
+      "attack_cases": 264,
+      "attack_asr_percent": 6.439,
+      "attack_failures": 17,
+      "by_attack_condition_asr_percent": {
+        "1A": 0,
+        "1A_fact": 0,
+        "1B": 0,
+        "2A_institutional": 6.818,
+        "2B": 9.091,
+        "3": 22.727
+      }
+    },
+    {
+      "backend": "kimi-k2.6",
+      "clean_cases": 44,
+      "clean_asr_percent": 0,
+      "attack_cases": 264,
+      "attack_asr_percent": 7.197,
+      "attack_failures": 19,
+      "by_attack_condition_asr_percent": {
+        "1A": 0,
+        "1A_fact": 0,
+        "1B": 2.273,
+        "2A_institutional": 9.091,
+        "2B": 2.273,
+        "3": 29.545
+      }
+    },
+    {
+      "backend": "grok-4.3",
+      "clean_cases": 44,
+      "clean_asr_percent": 0,
+      "attack_cases": 264,
+      "attack_asr_percent": 7.576,
+      "attack_failures": 20,
+      "by_attack_condition_asr_percent": {
+        "1A": 0,
+        "1A_fact": 0,
+        "1B": 0,
+        "2A_institutional": 6.818,
+        "2B": 9.091,
+        "3": 29.545
+      }
+    },
+    {
+      "backend": "deepseek-v4-pro",
+      "clean_cases": 44,
+      "clean_asr_percent": 0,
+      "attack_cases": 264,
+      "attack_asr_percent": 9.091,
+      "attack_failures": 24,
+      "by_attack_condition_asr_percent": {
+        "1A": 0,
+        "1A_fact": 2.273,
+        "1B": 0,
+        "2A_institutional": 11.364,
+        "2B": 9.091,
+        "3": 31.818
+      }
+    },
+    {
+      "backend": "claude-haiku-4.5",
+      "clean_cases": 44,
+      "clean_asr_percent": 0,
+      "attack_cases": 264,
+      "attack_asr_percent": 12.5,
+      "attack_failures": 33,
+      "by_attack_condition_asr_percent": {
+        "1A": 0,
+        "1A_fact": 0,
+        "1B": 0,
+        "2A_institutional": 18.182,
+        "2B": 27.273,
+        "3": 29.545
+      }
+    },
+    {
+      "backend": "qwen3.6-plus",
+      "clean_cases": 44,
+      "clean_asr_percent": 0,
+      "attack_cases": 264,
+      "attack_asr_percent": 14.394,
+      "attack_failures": 38,
+      "by_attack_condition_asr_percent": {
+        "1A": 0,
+        "1A_fact": 2.273,
+        "1B": 0,
+        "2A_institutional": 13.636,
+        "2B": 29.545,
+        "3": 40.909
+      }
+    },
+    {
+      "backend": "minimax-m2.7",
+      "clean_cases": 44,
+      "clean_asr_percent": 0,
+      "attack_cases": 264,
+      "attack_asr_percent": 17.424,
+      "attack_failures": 46,
+      "by_attack_condition_asr_percent": {
+        "1A": 0,
+        "1A_fact": 0,
+        "1B": 4.545,
+        "2A_institutional": 25.0,
+        "2B": 29.545,
+        "3": 45.455
+      }
+    },
+    {
+      "backend": "deepseek-v4-flash",
+      "clean_cases": 44,
+      "clean_asr_percent": 0,
+      "attack_cases": 264,
+      "attack_asr_percent": 20.076,
+      "attack_failures": 53,
+      "by_attack_condition_asr_percent": {
+        "1A": 0,
+        "1A_fact": 0,
+        "1B": 2.273,
+        "2A_institutional": 22.727,
+        "2B": 34.091,
+        "3": 61.364
+      }
+    },
+    {
+      "backend": "gemini-3.1-pro-preview",
+      "clean_cases": 44,
+      "clean_asr_percent": 0,
+      "attack_cases": 264,
+      "attack_asr_percent": 21.212,
+      "attack_failures": 56,
+      "by_attack_condition_asr_percent": {
+        "1A": 0,
+        "1A_fact": 4.545,
+        "1B": 2.273,
+        "2A_institutional": 18.182,
+        "2B": 52.273,
+        "3": 50.0
+      }
+    },
+    {
+      "backend": "gemini-3.5-flash",
+      "clean_cases": 44,
+      "clean_asr_percent": 2.273,
+      "attack_cases": 264,
+      "attack_asr_percent": 25.758,
+      "attack_failures": 68,
+      "by_attack_condition_asr_percent": {
+        "1A": 2.273,
+        "1A_fact": 4.545,
+        "1B": 2.273,
+        "2A_institutional": 25.0,
+        "2B": 45.455,
+        "3": 75.0
+      }
+    },
+    {
+      "backend": "gemini",
+      "clean_cases": 44,
+      "clean_asr_percent": 0,
+      "attack_cases": 264,
+      "attack_asr_percent": 31.439,
+      "attack_failures": 83,
+      "by_attack_condition_asr_percent": {
+        "1A": 2.273,
+        "1A_fact": 18.182,
+        "1B": 2.273,
+        "2A_institutional": 27.273,
+        "2B": 72.727,
+        "3": 65.909
+      }
+    }
+  ]
+}

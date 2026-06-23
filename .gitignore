@@ -1,0 +1,24 @@
+# Local secrets and environment files
+.env
+api_keys.env
+*.env.local
+
+# Runtime logs and caches
+logs/
+.hf_cache/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Locally generated experiment outputs
+results/exp*/
+results/eval*/
+results/raw*/
+results/local*/
+
+# OS/editor files
+.DS_Store
+*~

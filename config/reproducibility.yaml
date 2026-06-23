@@ -1,0 +1,41 @@
+# Reproducibility Configuration
+# Public package configuration for the cleaned current experiments.
+
+global_seed: 42
+
+# Path conventions (all relative to this release directory unless overridden).
+paths:
+  tasks: tasks/
+  query_clusters: data/search_cache/generated_queries.yaml
+  attack_modes: data/attack_modes/attack_modes.json
+  aggregate_metrics: results/aggregate_metrics/
+  judge_labels: results/judge_labels/
+  sanitized_outputs: results/model_outputs_sanitized/
+
+# Public main-experiment matrix.
+experiment_matrix:
+  domains: ["health", "finance", "product", "legal"]
+  queries_per_domain: 11
+  total_queries: 44
+  clean_condition: "baseline"
+  attack_conditions: ["1A", "1A_fact", "1B", "2A_institutional", "2B", "3"]
+  llm_backends:
+    - claude-sonnet
+    - claude-haiku-4.5
+    - gpt-5.4-mini
+    - gpt-5.4-nano
+    - gemini
+    - gemini-3.1-pro-preview
+    - gemini-3.5-flash
+    - grok-4.3
+    - deepseek-v4-flash
+    - deepseek-v4-pro
+    - kimi-k2.6
+    - minimax-m2.7
+    - qwen3.6-plus
+
+# Exp 2 ablation parameters reported in the paper.
+ablation:
+  source_counts: [1, 2, 3]
+  rank_position_variants: ["n3_top", "n3_mid", "n3_bot"]
+  search_results_per_call: 10

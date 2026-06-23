@@ -1,0 +1,418 @@
+[
+  {
+    "path": ".env.example",
+    "bytes": 480
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 315
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087
+  },
+  {
+    "path": "MANIFEST.json",
+    "bytes": 10111
+  },
+  {
+    "path": "Makefile",
+    "bytes": 1833
+  },
+  {
+    "path": "README.md",
+    "bytes": 6144
+  },
+  {
+    "path": "RELEASE_POLICY.md",
+    "bytes": 1150
+  },
+  {
+    "path": "agents/__init__.py",
+    "bytes": 1053
+  },
+  {
+    "path": "agents/agent_factory.py",
+    "bytes": 7408
+  },
+  {
+    "path": "agents/base_agent.py",
+    "bytes": 10332
+  },
+  {
+    "path": "agents/llm_providers.py",
+    "bytes": 12516
+  },
+  {
+    "path": "agents/openclaw_agent.py",
+    "bytes": 13255
+  },
+  {
+    "path": "agents/tool_calling_agent.py",
+    "bytes": 7876
+  },
+  {
+    "path": "config/injection_rules/exp1.yaml",
+    "bytes": 546
+  },
+  {
+    "path": "config/injection_rules/exp2_ablation.yaml",
+    "bytes": 673
+  },
+  {
+    "path": "config/models.yaml",
+    "bytes": 4050
+  },
+  {
+    "path": "config/reproducibility.yaml",
+    "bytes": 1181
+  },
+  {
+    "path": "data/attack_modes/attack_modes.json",
+    "bytes": 429
+  },
+  {
+    "path": "data/search_cache/generated_queries.yaml",
+    "bytes": 27404
+  },
+  {
+    "path": "defenses/__init__.py",
+    "bytes": 184
+  },
+  {
+    "path": "defenses/defense_loader.py",
+    "bytes": 1836
+  },
+  {
+    "path": "defenses/prompts/v1/unified_defense.txt",
+    "bytes": 3488
+  },
+  {
+    "path": "docs/EXPERIMENT_STATUS.md",
+    "bytes": 2152
+  },
+  {
+    "path": "eval_pipeline/__init__.py",
+    "bytes": 2131
+  },
+  {
+    "path": "eval_pipeline/asr_judge.py",
+    "bytes": 8642
+  },
+  {
+    "path": "eval_pipeline/base_judge.py",
+    "bytes": 8628
+  },
+  {
+    "path": "eval_pipeline/oss_judge.py",
+    "bytes": 4222
+  },
+  {
+    "path": "eval_pipeline/pipeline.py",
+    "bytes": 8763
+  },
+  {
+    "path": "eval_pipeline/ss_judge.py",
+    "bytes": 3466
+  },
+  {
+    "path": "eval_pipeline/utils.py",
+    "bytes": 6901
+  },
+  {
+    "path": "mock_api/__init__.py",
+    "bytes": 84
+  },
+  {
+    "path": "mock_api/cache_loader.py",
+    "bytes": 1749
+  },
+  {
+    "path": "mock_api/injection_rules.py",
+    "bytes": 3233
+  },
+  {
+    "path": "mock_api/live_search.py",
+    "bytes": 3935
+  },
+  {
+    "path": "mock_api/proxy_client.py",
+    "bytes": 2061
+  },
+  {
+    "path": "mock_api/query_matcher.py",
+    "bytes": 8695
+  },
+  {
+    "path": "mock_api/result_injector.py",
+    "bytes": 5581
+  },
+  {
+    "path": "mock_api/search_proxy.py",
+    "bytes": 10183
+  },
+  {
+    "path": "mock_api/server.py",
+    "bytes": 6610
+  },
+  {
+    "path": "pyproject.toml",
+    "bytes": 1184
+  },
+  {
+    "path": "results/README.md",
+    "bytes": 2193
+  },
+  {
+    "path": "results/aggregate_metrics/exp1_main_attack_only_summary.json",
+    "bytes": 5119
+  },
+  {
+    "path": "results/aggregate_metrics/exp1_main_eval/claude-haiku-4.5/stats_all_20260520_215642.json",
+    "bytes": 10456
+  },
+  {
+    "path": "results/aggregate_metrics/exp1_main_eval/claude-sonnet/stats_all_20260520_095648.json",
+    "bytes": 9936
+  },
+  {
+    "path": "results/aggregate_metrics/exp1_main_eval/deepseek-v4-flash/stats_all_20260519_203555.json",
+    "bytes": 10477
+  },
+  {
+    "path": "results/aggregate_metrics/exp1_main_eval/deepseek-v4-pro/stats_all_20260519_232014.json",
+    "bytes": 10475
+  },
+  {
+    "path": "results/aggregate_metrics/exp1_main_eval/gemini/stats_all_20260520_090314.json",
+    "bytes": 10624
+  },
+  {
+    "path": "results/aggregate_metrics/exp1_main_eval/gemini-3.1-pro-preview/stats_all_20260521_110025.json",
+    "bytes": 10518
+  },
+  {
+    "path": "results/aggregate_metrics/exp1_main_eval/gemini-3.5-flash/stats_all_20260521_110116.json",
+    "bytes": 10635
+  },
+  {
+    "path": "results/aggregate_metrics/exp1_main_eval/gpt-5.4-mini/stats_all_20260519_203314.json",
+    "bytes": 10187
+  },
+  {
+    "path": "results/aggregate_metrics/exp1_main_eval/gpt-5.4-nano/stats_all_20260520_215633.json",
+    "bytes": 10390
+  },
+  {
+    "path": "results/aggregate_metrics/exp1_main_eval/grok-4.3/stats_all_20260520_000505.json",
+    "bytes": 10425
+  },
+  {
+    "path": "results/aggregate_metrics/exp1_main_eval/kimi-k2.6/stats_all_20260519_232049.json",
+    "bytes": 10487
+  },
+  {
+    "path": "results/aggregate_metrics/exp1_main_eval/minimax-m2.7/stats_all_20260519_232018.json",
+    "bytes": 10480
+  },
+  {
+    "path": "results/aggregate_metrics/exp1_main_eval/qwen3.6-plus/stats_all_20260520_121243.json",
+    "bytes": 10444
+  },
+  {
+    "path": "results/aggregate_metrics/exp2_eval/gemini/stats_all_20260520_210702.json",
+    "bytes": 7433
+  },
+  {
+    "path": "results/aggregate_metrics/openclaw_eval/deepseek-v4-flash/default/stats_all_20260521_165506.json",
+    "bytes": 10488
+  },
+  {
+    "path": "results/aggregate_metrics/openclaw_eval/gemini/default/stats_all_20260521_131020.json",
+    "bytes": 10484
+  },
+  {
+    "path": "results/aggregate_metrics/openclaw_eval/minimax-m2.7/default/stats_all_20260521_210306.json",
+    "bytes": 10474
+  },
+  {
+    "path": "results/aggregate_metrics/prompt_defense_eval/deepseek-v4-flash_unified_defense/stats_all_20260520_201704.json",
+    "bytes": 10415
+  },
+  {
+    "path": "results/aggregate_metrics/prompt_defense_eval/gemini_unified_defense/stats_all_20260520_122201.json",
+    "bytes": 10429
+  },
+  {
+    "path": "results/aggregate_metrics/prompt_defense_eval/minimax-m2.7_unified_defense/stats_all_20260521_070809.json",
+    "bytes": 10363
+  },
+  {
+    "path": "results/aggregate_metrics/skillinstall_2b_matched/README.md",
+    "bytes": 1954
+  },
+  {
+    "path": "results/aggregate_metrics/skillinstall_2b_matched/eval/hermes_supplemental_2b_stats_all_20260522_105539.json",
+    "bytes": 3859
+  },
+  {
+    "path": "results/aggregate_metrics/skillinstall_2b_matched/openclaw_clean_baseline_manual_labels.json",
+    "bytes": 78072
+  },
+  {
+    "path": "results/aggregate_metrics/skillinstall_2b_matched/openclaw_cross_mode_cases.json",
+    "bytes": 217580
+  },
+  {
+    "path": "results/aggregate_metrics/skillinstall_2b_matched/summary.json",
+    "bytes": 6792
+  },
+  {
+    "path": "results/judge_labels/exp1_main_eval/claude-haiku-4.5/eval_all_20260520_215642.json",
+    "bytes": 548174
+  },
+  {
+    "path": "results/judge_labels/exp1_main_eval/claude-sonnet/eval_all_20260520_095648.json",
+    "bytes": 546319
+  },
+  {
+    "path": "results/judge_labels/exp1_main_eval/deepseek-v4-flash/eval_all_20260519_203555.json",
+    "bytes": 548796
+  },
+  {
+    "path": "results/judge_labels/exp1_main_eval/deepseek-v4-pro/eval_all_20260519_232013.json",
+    "bytes": 548558
+  },
+  {
+    "path": "results/judge_labels/exp1_main_eval/gemini/eval_all_20260520_090314.json",
+    "bytes": 542029
+  },
+  {
+    "path": "results/judge_labels/exp1_main_eval/gemini-3.1-pro-preview/eval_all_20260521_110025.json",
+    "bytes": 551879
+  },
+  {
+    "path": "results/judge_labels/exp1_main_eval/gemini-3.5-flash/eval_all_20260521_110116.json",
+    "bytes": 548167
+  },
+  {
+    "path": "results/judge_labels/exp1_main_eval/gpt-5.4-mini/eval_all_20260519_203314.json",
+    "bytes": 545680
+  },
+  {
+    "path": "results/judge_labels/exp1_main_eval/gpt-5.4-nano/eval_all_20260520_215633.json",
+    "bytes": 545721
+  },
+  {
+    "path": "results/judge_labels/exp1_main_eval/grok-4.3/eval_all_20260520_000505.json",
+    "bytes": 543223
+  },
+  {
+    "path": "results/judge_labels/exp1_main_eval/kimi-k2.6/eval_all_20260519_232049.json",
+    "bytes": 543859
+  },
+  {
+    "path": "results/judge_labels/exp1_main_eval/minimax-m2.7/eval_all_20260519_232018.json",
+    "bytes": 545737
+  },
+  {
+    "path": "results/judge_labels/exp1_main_eval/qwen3.6-plus/eval_all_20260520_121243.json",
+    "bytes": 545700
+  },
+  {
+    "path": "results/judge_labels/exp2_eval/gemini/eval_all_20260520_210701.json",
+    "bytes": 997537
+  },
+  {
+    "path": "results/judge_labels/openclaw_eval/deepseek-v4-flash/default/eval_all_20260521_165505.json",
+    "bytes": 551550
+  },
+  {
+    "path": "results/judge_labels/openclaw_eval/gemini/default/eval_all_20260521_131020.json",
+    "bytes": 544799
+  },
+  {
+    "path": "results/judge_labels/openclaw_eval/minimax-m2.7/default/eval_all_20260521_210305.json",
+    "bytes": 548481
+  },
+  {
+    "path": "results/judge_labels/prompt_defense_eval/deepseek-v4-flash_unified_defense/eval_all_20260520_201703.json",
+    "bytes": 558565
+  },
+  {
+    "path": "results/judge_labels/prompt_defense_eval/gemini_unified_defense/eval_all_20260520_122201.json",
+    "bytes": 553734
+  },
+  {
+    "path": "results/judge_labels/prompt_defense_eval/minimax-m2.7_unified_defense/eval_all_20260521_070808.json",
+    "bytes": 557411
+  },
+  {
+    "path": "results/judge_labels/skillinstall_openclaw_cross_mode/claude-sonnet/eval_all_20260522_074307.json",
+    "bytes": 68706
+  },
+  {
+    "path": "results/judge_labels/skillinstall_openclaw_cross_mode/gpt-5.4-mini/eval_all_20260522_074210.json",
+    "bytes": 68658
+  },
+  {
+    "path": "results/judge_labels/skillinstall_openclaw_cross_mode/gpt-5.5/eval_all_20260522_074247.json",
+    "bytes": 68402
+  },
+  {
+    "path": "results/model_outputs_sanitized/exp1_main_raw.jsonl",
+    "bytes": 19365415
+  },
+  {
+    "path": "results/model_outputs_sanitized/exp2_raw.jsonl",
+    "bytes": 2318435
+  },
+  {
+    "path": "results/model_outputs_sanitized/openclaw_raw.jsonl",
+    "bytes": 4484167
+  },
+  {
+    "path": "results/model_outputs_sanitized/prompt_defense_raw.jsonl",
+    "bytes": 5251758
+  },
+  {
+    "path": "results/model_outputs_sanitized/skillinstall_openclaw_cross_mode_raw.jsonl",
+    "bytes": 189807
+  },
+  {
+    "path": "scripts/fetch_search_cache.py",
+    "bytes": 9719
+  },
+  {
+    "path": "scripts/generate_queries.py",
+    "bytes": 6890
+  },
+  {
+    "path": "scripts/run_eval.py",
+    "bytes": 21479
+  },
+  {
+    "path": "scripts/run_exp1_v2.py",
+    "bytes": 8566
+  },
+  {
+    "path": "scripts/run_exp2_v2.py",
+    "bytes": 5460
+  },
+  {
+    "path": "tasks/finance.yaml",
+    "bytes": 17107
+  },
+  {
+    "path": "tasks/health.yaml",
+    "bytes": 16996
+  },
+  {
+    "path": "tasks/legal.yaml",
+    "bytes": 17461
+  },
+  {
+    "path": "tasks/product.yaml",
+    "bytes": 16944
+  }
+]

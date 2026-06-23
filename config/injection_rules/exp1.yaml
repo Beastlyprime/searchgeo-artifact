@@ -1,0 +1,22 @@
+# Experiment 1: main attack sweep.
+# Public current result conditions correspond to the paper's five-mode taxonomy,
+# with Mode 1A split into instruction and factual-payload variants.
+description: "Experiment 1 - main attack sweep"
+
+modes:
+  baseline:
+    attack_positions: []
+  1A:
+    attack_positions: [1]
+  1A_fact:
+    attack_positions: [1]
+  1B:
+    attack_positions: [1]
+  2A_institutional:
+    attack_positions: [1]
+    content_mode: 2A
+    source_indices: [0]
+  2B:
+    attack_positions: [1, 2, 3]
+  "3":
+    attack_positions: [1, 2, 3]

@@ -1,0 +1,26 @@
+# Experiment 2: pipeline-sensitivity ablation.
+# Tests source diversity / repetition and rank position on Gemini-3-Flash.
+description: "Experiment 2 - source diversity and position ablation"
+
+modes:
+  2A_institutional:
+    content_mode: 2A
+    source_indices: [0]
+  2B: {}
+  "3": {}
+
+variants:
+  # Source count at top rank. For 2A this repeats the same institutional source;
+  # for 2B/3 it adds distinct corroborating sources.
+  n1_top:
+    attack_positions: [1]
+  n2_top:
+    attack_positions: [1, 2]
+  n3_top:
+    attack_positions: [1, 2, 3]
+
+  # Rank position with N=3 held constant.
+  n3_mid:
+    attack_positions: [4, 5, 6]
+  n3_bot:
+    attack_positions: [8, 9, 10]

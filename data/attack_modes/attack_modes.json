@@ -1,0 +1,9 @@
+{
+  "baseline": "Clean condition with no injected adversarial result.",
+  "1A": "Hidden instruction-payload delivery condition.",
+  "1A_fact": "Visible factual-claim variant of Mode 1A.",
+  "1B": "Search-result snippet/title claim condition.",
+  "2A_institutional": "Single-source apparent-authority condition.",
+  "2B": "Multi-source synthetic-consensus condition.",
+  "3": "Authority plus citation-chain compound condition."
+}

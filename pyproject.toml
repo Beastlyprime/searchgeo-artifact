@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68.0", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "searchgeo"
+version = "0.1.0"
+description = "SearchGEO public artifact and evaluation framework"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.109.0",
+    "uvicorn>=0.27.0",
+    "pyyaml>=6.0.1",
+    "jsonschema>=4.21.0",
+    "httpx>=0.26.0",
+    "pydantic>=2.6.0",
+    "openai>=1.12.0",
+    "anthropic>=0.18.0",
+    "google-genai>=1.0.0",
+    "pandas>=2.2.0",
+    "numpy>=1.26.0",
+    "scipy>=1.12.0",
+    "matplotlib>=3.8.0",
+    "seaborn>=0.13.0",
+    "scikit-learn>=1.4.0",
+    "sentence-transformers>=3.0.0",
+    "rich>=13.7.0",
+    "click>=8.1.0",
+    "python-dotenv>=1.0.0",
+    "jinja2>=3.1.0",
+    "google-search-results>=2.4.0",
+    "trafilatura>=1.6.0",
+]
+
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agents*", "mock_api*", "eval_pipeline*", "defenses*"]
